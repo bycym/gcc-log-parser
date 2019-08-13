@@ -1,0 +1,45 @@
+input.c: In function '__parseMouseEvent':
+input.c:54:6: warning: variable 'ch' set but not used [-Wunused-but-set-variable]
+  int ch = r_cons_readchar ();
+      ^~
+stiv.c: In function 'rgb':
+stiv.c:56:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (r<0) r=0; if (r>255) r = 255;
+  ^~
+stiv.c:56:16: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (r<0) r=0; if (r>255) r = 255;
+                ^~
+stiv.c:57:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (g<0) g=0; if (g>255) g = 255;
+  ^~
+stiv.c:57:16: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (g<0) g=0; if (g>255) g = 255;
+                ^~
+stiv.c:58:2: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+  if (b<0) b=0; if (b>255) b = 255;
+  ^~
+stiv.c:58:16: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+  if (b<0) b=0; if (b>255) b = 255;
+                ^~
+p/io_debug.c:229:13: warning: 'handle_posix_error' defined but not used [-Wunused-function]
+ static void handle_posix_error(int err) {
+             ^~~~~~~~~~~~~~~~~~
+/home/travis/build/radare/radare2/libr/..//libr/bin/p/bin_coff.c: In function 'symbols':
+/home/travis/build/radare/radare2/libr/..//libr/bin/p/bin_coff.c:184:22: warning: variable 's' set but not used [-Wunused-but-set-variable]
+  struct coff_symbol *s;
+                      ^
+/home/travis/build/radare/radare2/libr/..//libr/anal/p/../..//asm/arch/tms320/c55x_plus/hashvector.c:97:25: warning: 'ins_hash' defined but not used [-Wunused-variable]
+ static HASHCODE_ENTRY_T ins_hash[] = {
+                         ^~~~~~~~
+disasm.c: In function 'ds_show_refs':
+disasm.c:1242:13: warning: variable 'flagi' set but not used [-Wunused-but-set-variable]
+  RFlagItem *flagi;
+             ^~~~~
+vmenus.c: In function 'show_class':
+vmenus.c:954:7: warning: variable 'found' set but not used [-Wunused-but-set-variable]
+  bool found = false;
+       ^~~~~
+vmenus.c: In function 'r_core_visual_classes':
+vmenus.c:1128:13: warning: variable 'fur' set but not used [-Wunused-but-set-variable]
+  RBinField *fur = NULL;
+             ^~~
